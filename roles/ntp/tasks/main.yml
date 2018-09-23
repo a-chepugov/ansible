@@ -1,0 +1,11 @@
+---
+- name: ntp
+  apt: name=ntp state=latest
+  when: ansible_os_family == "Debian"
+  notify: restart ntp
+  ignore_errors: yes
+
+- name: ntpdate
+  apt: name=ntpdate state=latest
+  when: ansible_os_family == "Debian"
+  ignore_errors: yes

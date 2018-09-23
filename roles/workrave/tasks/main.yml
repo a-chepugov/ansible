@@ -1,0 +1,5 @@
+---
+- name: workrave
+  apt: name=workrave state=latest
+  when: ansible_os_family == "Debian"
+  ignore_errors: yes

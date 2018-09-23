@@ -1,0 +1,10 @@
+---
+- name: unison
+  apt: name=unison state=latest
+  when: ansible_os_family == "Debian"
+  ignore_errors: yes
+
+- name: unison-gtk
+  apt: name=unison state=latest
+  when: ansible_os_family == "Debian" and gui
+  ignore_errors: yes 

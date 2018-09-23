@@ -1,0 +1,5 @@
+---
+- name: snapd
+  apt: name=snapd state=latest
+  when: ansible_os_family == "Debian"
+  ignore_errors: yes

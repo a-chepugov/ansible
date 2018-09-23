@@ -1,0 +1,5 @@
+---
+- name: clementine
+  apt: name=clementine state=latest
+  when: ansible_os_family == "Debian"
+  ignore_errors: yes

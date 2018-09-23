@@ -1,0 +1,6 @@
+---
+- name: ssh
+  apt: name=openssh-server state=latest
+  when: ansible_os_family == "Debian"
+  notify: restart sshd
+  ignore_errors: yes

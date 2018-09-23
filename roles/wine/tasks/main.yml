@@ -1,0 +1,5 @@
+---
+- name: wine
+  apt: name=wine state=latest
+  when: ansible_os_family == "Debian"
+  ignore_errors: yes

@@ -1,0 +1,7 @@
+---
+- name: rustup 
+  become: "{{user_name}}"
+  shell: curl https://sh.rustup.rs -sSf | sh
+  args: 
+    warn: no
+  ignore_errors: yes
