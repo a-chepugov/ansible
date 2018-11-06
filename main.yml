@@ -1,6 +1,6 @@
 ---
 - name: leadup
-  hosts: debian
+  hosts: all
 
   vars:
     user_name: alex
@@ -28,7 +28,7 @@
   - inkscape
   - flatpak
   - snappy
-  - deluge 
+  - deluge
   - chromium
   - firefox
   - gramps
