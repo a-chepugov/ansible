@@ -1,5 +1,0 @@
----
-- name: gramps
-  apt: name=gramps state=latest
-  when: ansible_os_family == "Debian"
-  ignore_errors: yes

@@ -1,5 +1,0 @@
----
-- name: xfce4-terminal
-  apt: name=xfce4-terminal state=latest
-  when: ansible_os_family == "Debian"
-  ignore_errors: yes

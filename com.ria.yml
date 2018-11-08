@@ -1,0 +1,11 @@
+---
+- name: leadup
+  hosts: com.ria.alex
+
+  vars:
+    user_name: a.chepugov
+
+  roles:
+  - __desktop
+
+

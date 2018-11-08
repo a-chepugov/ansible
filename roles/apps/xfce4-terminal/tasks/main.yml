@@ -1,0 +1,4 @@
+---
+- name: xfce4-terminal
+  package: name=xfce4-terminal state=latest
+  ignore_errors: yes

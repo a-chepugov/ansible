@@ -1,0 +1,4 @@
+---
+- name: chromium
+  yum: name=chromium state=latest
+  ignore_errors: yes

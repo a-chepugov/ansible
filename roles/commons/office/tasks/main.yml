@@ -1,0 +1,5 @@
+---
+- include_role: name=apps/gimp
+- include_role: name=apps/gramps
+- include_role: name=apps/inkscape
+- include_role: name=apps/workrave

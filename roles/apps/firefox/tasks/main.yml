@@ -1,0 +1,4 @@
+---
+- name: firefox
+  package: name=firefox state=latest
+  ignore_errors: yes

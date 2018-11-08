@@ -1,0 +1,4 @@
+---
+- name: workrave
+  package: name=workrave state=latest
+  ignore_errors: yes

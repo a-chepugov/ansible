@@ -1,0 +1,12 @@
+---
+- name: apt update
+  apt: update_cache=yes
+
+- name: aptitude
+  apt: name=aptitude state=latest
+  ignore_errors: yes
+
+- name: synaptic
+  apt: name=synaptic state=latest
+  when: gui is defined
+  ignore_errors: yes

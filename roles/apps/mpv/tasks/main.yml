@@ -1,0 +1,4 @@
+---
+- name: mpv
+  package: name=mpv state=latest
+  ignore_errors: yes

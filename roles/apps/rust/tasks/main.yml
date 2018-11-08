@@ -1,0 +1,8 @@
+---
+- name: rust
+  package: name=rust state=latest
+  ignore_errors: yes
+
+- name: cargo
+  package: name=cargo state=latest
+  ignore_errors: yes

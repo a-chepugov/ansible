@@ -1,0 +1,9 @@
+---
+- name: ntp
+  package: name=ntp state=latest
+  notify: restart ntp
+  ignore_errors: yes
+
+- name: ntpdate
+  package: name=ntpdate state=latest
+  ignore_errors: yes

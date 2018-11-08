@@ -1,0 +1,4 @@
+---
+- name: curl
+  package: name=curl state=latest
+  ignore_errors: yes

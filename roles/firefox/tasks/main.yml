@@ -1,5 +1,0 @@
----
-- name: firefox
-  apt: name=firefox state=latest
-  when: ansible_os_family == "Debian"
-  ignore_errors: yes

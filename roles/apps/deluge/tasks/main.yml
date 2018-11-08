@@ -1,0 +1,4 @@
+---
+- name: deluge
+  package: name=clementine state=latest
+  ignore_errors: yes

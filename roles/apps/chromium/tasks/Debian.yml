@@ -1,0 +1,4 @@
+---
+- name: chromium
+  apt: name=chromium state=latest
+  ignore_errors: yes

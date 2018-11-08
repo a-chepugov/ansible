@@ -1,5 +1,0 @@
----
-- name: flatpak
-  apt: name=flatpak state=latest
-  when: ansible_os_family == "Debian"
-  ignore_errors: yes

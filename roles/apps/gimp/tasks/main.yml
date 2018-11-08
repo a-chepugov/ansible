@@ -1,0 +1,4 @@
+---
+- name: gimp
+  package: name=gimp state=latest
+  ignore_errors: yes

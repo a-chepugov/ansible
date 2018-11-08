@@ -1,0 +1,9 @@
+---
+- name: unison
+  package: name=unison state=latest
+  ignore_errors: yes
+
+- name: unison-gtk
+  package: name=unison state=latest
+  when: gui is defined
+  ignore_errors: yes

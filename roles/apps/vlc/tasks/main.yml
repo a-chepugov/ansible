@@ -1,0 +1,4 @@
+---
+- name: vlc
+  package: name=vlc state=latest
+  ignore_errors: yes

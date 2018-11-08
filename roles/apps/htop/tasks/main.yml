@@ -1,0 +1,4 @@
+---
+- name: htop
+  package: name=htop state=latest
+  ignore_errors: yes

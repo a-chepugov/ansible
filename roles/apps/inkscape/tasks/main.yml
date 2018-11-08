@@ -1,0 +1,4 @@
+---
+- name: inkscape
+  package: name=inkscape state=latest
+  ignore_errors: yes

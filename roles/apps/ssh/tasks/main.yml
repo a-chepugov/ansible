@@ -1,0 +1,5 @@
+---
+- name: ssh
+  package: name=openssh-server state=latest
+  notify: restart sshd
+  ignore_errors: yes

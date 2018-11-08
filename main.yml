@@ -7,33 +7,33 @@
     gui: yes
 
   roles:
-  - localectl
-  - mc
-  - htop
-  - git
-  - ntp
-  - ssh
-  - vim
-  - emacs
-  - samba
-  - parted
-  - kvpm
-  - xfce4-terminal
-  - nodejs
-  - rust
-  - unison
-  - clementine
-  - vlc
-  - gimp
-  - inkscape
-  - flatpak
-  - snappy
-  - deluge
-  - chromium
-  - firefox
-  - gramps
-  - workrave
-  - wine
-  - i3
+  - apps/localectl
+  - apps/mc
+  - apps/htop
+  - apps/git
+  - apps/ntp
+  - apps/ssh
+  - apps/vim
+  - apps/emacs
+  - apps/samba
+  - apps/parted
+  - apps/kvpm
+  - apps/xfce4-terminal
+  - apps/nodejs
+  - apps/rust
+  - apps/unison
+  - apps/clementine
+  - apps/vlc
+  - apps/gimp
+  - apps/inkscape
+  - apps/flatpak
+  - apps/snappy
+  - apps/deluge
+  - apps/chromium
+  - apps/firefox
+  - apps/gramps
+  - apps/workrave
+  - apps/wine
+  - apps/i3
 
 

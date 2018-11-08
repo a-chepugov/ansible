@@ -1,0 +1,9 @@
+---
+- name: parted
+  package: name=parted state=latest
+  ignore_errors: yes
+
+- name: gparted
+  package: name=gparted state=latest
+  when: gui is defined
+  ignore_errors: yes

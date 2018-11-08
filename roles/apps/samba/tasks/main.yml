@@ -1,0 +1,8 @@
+---
+- name: samba
+  package: name=samba state=latest
+  ignore_errors: yes
+
+- name: smbclient
+  package: name=smbclient state=latest
+  ignore_errors: yes

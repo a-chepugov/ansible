@@ -1,0 +1,4 @@
+---
+- name: vim
+  package: name=vim state=latest
+  ignore_errors: yes

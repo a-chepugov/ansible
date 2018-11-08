@@ -1,0 +1,5 @@
+---
+- name: system-config-lvm
+  package: name=system-config-lvm state=latest
+  when: gui is defined
+  ignore_errors: yes

@@ -1,0 +1,4 @@
+---
+- name: chromium-browser
+  yum: name=chromium-browser state=latest
+  ignore_errors: yes

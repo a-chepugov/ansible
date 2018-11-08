@@ -1,0 +1,4 @@
+---
+- name: mc
+  package: name=mc state=latest
+  ignore_errors: yes

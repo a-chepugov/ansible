@@ -1,0 +1,15 @@
+---
+- include_role: name=apps/package-managers
+- include_role: name=apps/curl
+- include_role: name=apps/flatpak
+- include_role: name=apps/htop
+- include_role: name=apps/localectl
+- include_role: name=apps/mc
+- include_role: name=apps/ntp
+- include_role: name=apps/parted
+- include_role: name=apps/samba
+- include_role: name=apps/ssh
+- include_role: name=apps/system-config-lvm
+- include_role: name=apps/unison
+- include_role: name=apps/wine
+- include_role: name=apps/xfce4-terminal
