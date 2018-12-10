@@ -1,0 +1,4 @@
+---
+- name: qterminal
+  package: name=qterminal state=latest
+  ignore_errors: yes

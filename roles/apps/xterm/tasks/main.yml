@@ -1,0 +1,4 @@
+---
+- name: xterm
+  package: name=xterm state=latest
+  ignore_errors: yes
