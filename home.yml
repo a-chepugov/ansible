@@ -1,9 +1,9 @@
 ---
 - name: leadup
-  hosts: com.ria
+  hosts: home
 
   vars:
-    user_name: a.chepugov
+    user_name: alex
 
   roles:
   - __developer
