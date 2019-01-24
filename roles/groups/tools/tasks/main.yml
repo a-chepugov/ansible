@@ -1,9 +1,9 @@
 ---
 - include_role: name=apps/package-managers
+- include_role: name=apps/flatpak
 - include_role: name=apps/curl
 - include_role: name=apps/xterm
 - include_role: name=apps/qterminal
-- include_role: name=apps/flatpak
 - include_role: name=apps/htop
 - include_role: name=apps/localectl
 - include_role: name=apps/mc

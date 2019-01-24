@@ -3,7 +3,3 @@
   package: name=git state=latest
   ignore_errors: yes
 
-- name: git-cola
-  package: name=git-cola state=latest
-  when: gui is defined
-  ignore_errors: yes

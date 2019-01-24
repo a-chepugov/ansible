@@ -1,0 +1,4 @@
+---
+- name: git-cola
+  package: name=git-cola state=latest
+  ignore_errors: yes

@@ -1,0 +1,4 @@
+---
+- name: gparted
+  package: name=gparted state=latest
+  ignore_errors: yes

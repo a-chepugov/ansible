@@ -1,4 +1,4 @@
 ---
-- name: unison
+- name: unison-gtk
   package: name=unison state=latest
   ignore_errors: yes

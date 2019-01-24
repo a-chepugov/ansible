@@ -8,17 +8,18 @@
 - name: ansible_distribution
   debug: msg="{{ ansible_distribution }}"
 
+- include_role: name=groups/wm
+
 - include_role: name=groups/tools
   vars:
     gui: gui
+- include_role: name=groups/tools-gui
 
+- include_role: name=groups/editors
+- include_role: name=groups/office
+- include_role: name=groups/players
+- include_role: name=groups/web
 - include_role: name=groups/development
   vars:
     gui: gui
-
-- include_role: name=groups/editors
-- include_role: name=groups/web
-- include_role: name=groups/players
-
-- include_role: name=groups/office
-- include_role: name=groups/wm
+- include_role: name=groups/development-gui
