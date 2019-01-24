@@ -1,1 +1,4 @@
 ---
+- name: flatpak
+  package: name=flatpak state=latest
+  ignore_errors: yes

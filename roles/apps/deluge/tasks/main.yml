@@ -1,4 +1,4 @@
 ---
 - name: deluge
-  package: name=clementine state=latest
+  package: name=deluge state=latest
   ignore_errors: yes
