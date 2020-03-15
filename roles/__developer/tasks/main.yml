@@ -8,6 +8,8 @@
 - name: ansible_distribution
   debug: msg="{{ ansible_distribution }}"
 
+- include_role: name=apps/package-management-init
+
 - include_role: name=groups/wm
 
 - include_role: name=groups/tools

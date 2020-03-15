@@ -2,3 +2,9 @@
 - name: vim
   package: name=vim state=latest
   ignore_errors: yes
+
+- name: vim config
+  become_user: "{{user_name}}"
+  copy: src=config dest=~/.vim mode=770
+  ignore_errors: yes
+

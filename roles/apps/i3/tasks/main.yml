@@ -3,6 +3,10 @@
   package: name=i3 state=latest
   ignore_errors: yes
 
+- name: i3lock
+  package: name=i3lock state=latest
+  ignore_errors: yes
+
 - name: i3 config dir
   become_user: "{{user_name}}"
   file:

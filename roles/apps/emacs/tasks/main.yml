@@ -1,4 +1,0 @@
----
-- name: emacs
-  package: name=emacs state=latest
-  ignore_errors: yes

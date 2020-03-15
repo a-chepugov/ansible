@@ -1,2 +1,2 @@
 #!/bin/bash
-ansible-playbook -i hosts main.yml
+ansible-playbook -i hosts home.yml

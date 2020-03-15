@@ -1,3 +1,2 @@
 ---
-- include_role: name=apps/emacs
 - include_role: name=apps/vim

@@ -1,1 +1,1 @@
-dependencies: [{ role: package-management }]
+dependencies: [{ role: parted }]

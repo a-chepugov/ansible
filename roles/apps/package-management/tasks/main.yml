@@ -1,8 +1,0 @@
----
-- name: import
-  include_tasks: "{{ item }}"
-  with_first_found:
-  - "{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"
-  - "{{ ansible_distribution }}.yml"
-  - "{{ ansible_os_family }}.yml"
-  - "default.yml"
