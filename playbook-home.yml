@@ -1,9 +1,7 @@
 ---
 - name: leadup
   hosts: home
-
-  vars:
-    user_name: alex
+  become: yes
 
   roles:
   - __developer

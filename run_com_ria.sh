@@ -1,2 +1,2 @@
 #!/bin/bash
-ansible-playbook -i hosts com.ria.yml
+ansible-playbook -i hosts playbook-com.ria.yml

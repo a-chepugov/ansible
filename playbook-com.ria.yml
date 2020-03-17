@@ -1,9 +1,7 @@
 ---
 - name: leadup
   hosts: com.ria
-
-  vars:
-    user_name: a.chepugov
+  become: yes
 
   roles:
   - __developer
