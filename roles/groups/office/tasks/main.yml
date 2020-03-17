@@ -1,5 +1,4 @@
 ---
-- include_role: name=apps/gvim
 - include_role: name=apps/gimp
 - include_role: name=apps/gramps
 - include_role: name=apps/inkscape

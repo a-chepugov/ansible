@@ -1,27 +1,31 @@
 ---
 - name: hostname
-  debug: msg="{{ inventory_hostname }}"
+  debug:
+    var: inventory_hostname
 
 - name: ansible_os_family
-  debug: msg="{{ ansible_os_family }}"
+  debug:
+    var: ansible_os_family
 
 - name: ansible_distribution
-  debug: msg="{{ ansible_distribution }}"
+  debug:
+     var: ansible_distribution
 
 - include_role: name=apps/package-management-init
 
-- include_role: name=groups/wm
+- include_role: name="groups/{{group_name}}"
+  with_items: "{{app_groups}}"
+  loop_control:
+    loop_var: group_name
 
-- include_role: name=groups/tools
   vars:
-    gui: gui
-- include_role: name=groups/tools-gui
-
-- include_role: name=groups/editors
-- include_role: name=groups/office
-- include_role: name=groups/players
-- include_role: name=groups/web
-- include_role: name=groups/development
-  vars:
-    gui: gui
-- include_role: name=groups/development-gui
+    app_groups:
+      - wm
+      - web
+      - tools
+      - tools-gui
+      - editors
+      - office
+      - development
+      - development-gui
+      - players

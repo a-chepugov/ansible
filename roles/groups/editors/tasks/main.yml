@@ -1,2 +1,3 @@
 ---
 - include_role: name=apps/vim
+- include_role: name=apps/gvim
