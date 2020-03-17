@@ -1,6 +1,6 @@
 ---
 - name: rust
-  package: name=rust state=latest
+  package: name=rustc state=latest
   ignore_errors: yes
 
 - name: cargo
