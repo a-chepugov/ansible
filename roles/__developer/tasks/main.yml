@@ -20,12 +20,12 @@
 
   vars:
     app_groups:
-      - wm
-      - web
-      - tools
-      - tools-gui
-      - editors
-      - office
-      - development
-      - development-gui
-      - players
+    - wm
+    - web
+    - tools
+    - tools-gui
+    - editors
+    - office
+    - development
+    - development-gui
+    - players
