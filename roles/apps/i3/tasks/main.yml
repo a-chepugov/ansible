@@ -3,14 +3,6 @@
   package: name=i3 state=latest
   ignore_errors: yes
 
-- name: i3 config dir
-  become_user: "{{user_name}}"
-  file:
-    path: "{{dst}}"
-    state: directory
-    recurse: yes
-  ignore_errors: yes
-
 - name: i3 config
   become_user: "{{user_name}}"
   copy: src="{{src}}" dest="{{dst}}"
