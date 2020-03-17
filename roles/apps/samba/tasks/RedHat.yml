@@ -1,5 +1,4 @@
 ---
-- name: samba-client
-  package: name=samba-client state=latest
+- package: name=samba-client state=latest
   ignore_errors: yes
     

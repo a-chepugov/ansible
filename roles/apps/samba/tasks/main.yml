@@ -3,10 +3,6 @@
   package: name=samba state=latest
   ignore_errors: yes
 
-- name: smbclient
-  package: name=smbclient state=latest
-  ignore_errors: yes
-
 - name: samba client
   include_tasks: "{{ item }}"
   with_first_found:

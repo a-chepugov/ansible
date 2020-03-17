@@ -1,5 +1,4 @@
 ---
-- name: smbclient
-    package: name=smbclient state=latest
-    ignore_errors: yes
+- package: name=smbclient state=latest
+  ignore_errors: yes
 
