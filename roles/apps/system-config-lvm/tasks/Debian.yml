@@ -1,3 +1,0 @@
----
-- package: name=system-config-lvm state=latest
-  ignore_errors: yes
