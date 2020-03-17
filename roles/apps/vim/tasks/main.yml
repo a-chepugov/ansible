@@ -5,6 +5,6 @@
 
 - name: vim config
   become_user: "{{user_name}}"
-  copy: src=config dest=~/.vim mode=770
+  copy: src="{{src}}" dest="{{dst}}" mode=770
   ignore_errors: yes
 
