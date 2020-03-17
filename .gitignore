@@ -1,3 +1,4 @@
 /.idea
 /com.ria.retry
 /main.retry
+*.retry
