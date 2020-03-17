@@ -1,3 +1,2 @@
 ---
-- name: yum update
-  yum: update_cache=yes list=null
+- yum: update_cache=yes list=null

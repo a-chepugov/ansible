@@ -1,4 +1,3 @@
 ---
-- name: aptitude
-  apt: name=aptitude state=latest
+- package: name=synaptic state=latest
   ignore_errors: yes
