@@ -1,0 +1,4 @@
+---
+- name: terminator
+  package: name=terminator state=latest
+  ignore_errors: yes
