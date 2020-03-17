@@ -11,6 +11,4 @@
 - include_role: name=apps/parted
 - include_role: name=apps/samba
 - include_role: name=apps/ssh
-- include_role: name=apps/system-config-lvm
 - include_role: name=apps/unison
-- include_role: name=apps/wine

@@ -1,5 +1,4 @@
 ---
 - include_role: name=apps/unison-gtk
 - include_role: name=apps/gparted
-- include_role: name=apps/system-config-lvm
-
+- include_role: name=apps/wine
