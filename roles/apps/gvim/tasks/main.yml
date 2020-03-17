@@ -1,5 +1,0 @@
----
-- name: gvim
-  package: name=gvim state=latest
-  ignore_errors: yes
-
