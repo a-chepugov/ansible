@@ -5,10 +5,10 @@
 - include_role: name=apps/xterm
 - include_role: name=apps/terminator
 - include_role: name=apps/htop
-- include_role: name=apps/localectl
 - include_role: name=apps/mc
 - include_role: name=apps/ntp
 - include_role: name=apps/parted
 - include_role: name=apps/samba
 - include_role: name=apps/ssh
 - include_role: name=apps/unison
+- include_role: name=apps/vsftpd

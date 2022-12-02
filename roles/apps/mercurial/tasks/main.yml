@@ -1,0 +1,5 @@
+---
+- name: mercurial
+  package: name=mercurial state=latest
+  ignore_errors: yes
+

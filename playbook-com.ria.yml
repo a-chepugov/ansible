@@ -1,9 +1,0 @@
----
-- name: leadup
-  hosts: com.ria
-  become: yes
-
-  roles:
-  - __developer
-
-

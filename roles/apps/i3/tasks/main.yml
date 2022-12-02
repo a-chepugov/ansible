@@ -11,3 +11,8 @@
 - name: i3lock
   package: name=i3lock state=latest
   ignore_errors: yes
+
+- name: i3 status config
+  become_user: "{{user_name}}"
+  copy: src="{{src_status}}" dest="{{dst_status}}"
+  ignore_errors: yes

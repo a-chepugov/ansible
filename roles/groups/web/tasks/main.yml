@@ -2,3 +2,4 @@
 - include_role: name=apps/firefox
 - include_role: name=apps/chromium
 - include_role: name=apps/deluge
+- include_role: name=apps/vpn

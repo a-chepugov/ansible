@@ -1,3 +1,5 @@
 ---
-src: config
+src: i3/config
 dst: ~/.config/i3/
+src_status: i3status/config
+dst_status: ~/.config/i3status/

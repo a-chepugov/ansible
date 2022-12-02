@@ -1,4 +1,0 @@
----
-- name: localectl 
-  shell: localectl set-x11-keymap us,ru pc105 "" grp_led:caps,ctrl:nocaps,grp:lctrl_lwin_rctrl_menu,keypad:pointerkeys
-  ignore_errors: yes

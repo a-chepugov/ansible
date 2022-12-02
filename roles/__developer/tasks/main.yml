@@ -1,17 +1,5 @@
 ---
-- name: hostname
-  debug:
-    var: inventory_hostname
-
-- name: ansible_os_family
-  debug:
-    var: ansible_os_family
-
-- name: ansible_distribution
-  debug:
-     var: ansible_distribution
-
-- include_role: name=apps/package-management-init
+- include_role: name=__basic
 
 - include_role: name="groups/{{group_name}}"
   with_items: "{{app_groups}}"
@@ -20,12 +8,5 @@
 
   vars:
     app_groups:
-    - wm
-    - web
-    - tools
-    - tools-gui
-    - editors
-    - office
     - development
     - development-gui
-    - players

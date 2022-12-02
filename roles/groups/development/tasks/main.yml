@@ -1,4 +1,5 @@
 ---
 - include_role: name=apps/git
+- include_role: name=apps/mercurial
 - include_role: name=apps/nodejs
 - include_role: name=apps/rust

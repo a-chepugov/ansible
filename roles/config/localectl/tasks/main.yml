@@ -1,0 +1,11 @@
+---
+- name: localectl
+  become_user: "{{user_name}}"
+  shell: localectl set-x11-keymap us,ru pc104 ,ruu grp:lctrl_lwin_rctrl_menu,grp:ctrls_toggle,grp:shift_caps_switch,grp_led:caps,keypad:pointerkeys,lv3:ralt_switch
+  ignore_errors: yes
+
+- name: setxkbmap
+  become_user: "{{user_name}}"
+  shell: setxkbmap -layout us,ru -variant ,ruu -option grp:lctrl_lwin_rctrl_menu,grp:ctrls_toggle,grp:shift_caps_switch,grp_led:caps,keypad:pointerkeys,lv3:ralt_switch
+  ignore_errors: yes
+

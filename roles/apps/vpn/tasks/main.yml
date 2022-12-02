@@ -1,0 +1,4 @@
+---
+- name: network-manager-openconnect-gnome
+  package: name=network-manager-openconnect-gnome state=latest
+  ignore_errors: yes

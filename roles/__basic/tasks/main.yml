@@ -1,0 +1,19 @@
+---
+- include_role: name=__host_info
+- include_role: name=apps/package-management-init
+- include_role: name=config/localectl
+
+- include_role: name="groups/{{group_name}}"
+
+  with_items: "{{app_groups}}"
+  vars:
+    app_groups:
+    - wm
+    - tools
+    - tools-gui
+    - editors
+    - office
+    - web
+    - players
+  loop_control:
+    loop_var: group_name

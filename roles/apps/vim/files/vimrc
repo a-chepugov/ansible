@@ -30,7 +30,7 @@ set number
 set colorcolumn=121
 
 set background=dark
-colorscheme industry
+" colorscheme industry
 " set visualbell
 set laststatus=2
 

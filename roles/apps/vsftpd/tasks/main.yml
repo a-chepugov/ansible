@@ -1,0 +1,4 @@
+---
+- name: vsftpd
+  package: name=vsftpd state=latest
+  ignore_errors: yes

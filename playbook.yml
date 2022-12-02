@@ -1,7 +1,9 @@
 ---
-- name: leadup
-  hosts: home
+- name: dev
+  hosts: "{{hosts}}"
   become: yes
 
   roles:
   - __developer
+
+

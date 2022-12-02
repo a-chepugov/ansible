@@ -36,7 +36,7 @@ bindsym $mod+Shift+Return exec terminator
 # kill focused window
 bindsym $mod+Shift+q kill
 
-bindsym $mod+Shift+x exec i3lock --color=000000
+bindsym $mod+Shift+i exec i3lock --color=000000
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
@@ -45,6 +45,11 @@ bindsym $mod+d exec dmenu_run
 # installed.
 bindsym $mod+Shift+d exec --no-startup-id i3-dmenu-desktop --dmenu='dmenu -i -l 20'
 
+bindsym $mod+Shift+s exec "rofi -modi window,drun,run,keys -show window -lines 30 -width 90 -sidebar-mode -show-icons"
+
+bindsym $mod+Tab workspace next
+bindsym $mod+Shift+Tab workspace prev
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
@@ -52,7 +57,6 @@ bindsym $mod+l focus up
 bindsym $mod+semicolon focus right
 
 bindsym $mod+Shift+y sticky toggle
-
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -171,4 +175,3 @@ bindsym $mod+F4 exec "phpstorm"
 bindsym $mod+Shift+F4 exec "webstorm"
 bindsym $mod+F12 exec "xcalib -i -a"
 bindsym $mod+Shift+F12 exec "xwd -root -out `date --iso-8601=ns`.xwd"
-

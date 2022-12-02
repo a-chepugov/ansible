@@ -1,6 +1,8 @@
+[local]
+main ansible_host=127.0.0.1
+
 [home]
-lenovo ansible_host=alex-Lenovo-ideapad-100-15IBD
-eee
+ansible_host=alex-desktop
 
 [com.ria]
 com.ria.alex
